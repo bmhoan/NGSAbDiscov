@@ -11,3 +11,12 @@ numpy
 Levenshtein
 scikit-learn
 scipy
+regex
+pandarallel
+abnumber
+torch
+transformers
+ablang2
+joblib
+dash
+plotly

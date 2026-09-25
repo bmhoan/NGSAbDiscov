@@ -56,5 +56,9 @@ def inverse_simpson_index(counts):
     """
 
     total_count = sum(counts)
+    if total_count <= 0:
+        return 0
     simpson_index = sum((count / total_count)**2 for count in counts)
+    if simpson_index <= 0:
+        return 0
     return 1 / simpson_index
